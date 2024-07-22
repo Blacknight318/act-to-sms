@@ -15,7 +15,7 @@ os.environ["STREAMLIT_SERVER_ENABLE_CORS"] = "true"
 os.environ["STREAMLIT_SERVER_ENABLE_XSRF_PROTECTION"] = "false"
 
 # Start the Streamlit app
-subprocess.run(["streamlit", "run", "app.py", "--server.port=8501"])
+# subprocess.run(["streamlit", "run", "app.py", "--server.port=8501"])
 
 def find_id_pages(input_pdf):
     doc = fitz.open(input_pdf)
